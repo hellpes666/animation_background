@@ -1,0 +1,35 @@
+.main__site-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu__wrapper{
+    margin-right: 10%; 
+}
+
+.main-menu__site-nav{
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+}
+
+.nav__link{
+    text-decoration: none;
+    color:orange;  
+    font-weight: 500;
+    font-size: 20px;
+    transition: color .4s;
+}
+.nav__link:hover{
+    color: yellow;
+}
+
+.nav__logo{
+    display: block;
+    width: 50px;
+
+    
+}
+
