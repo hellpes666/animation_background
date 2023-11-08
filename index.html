@@ -6,9 +6,13 @@
         <link rel="stylesheet" href="./styles/style.css">
         <link rel="stylesheet" href="./styles/background.css">
         <link rel="stylesheet" href="./styles/nav.css">
+        <link rel="stylesheet" href="./styles/nav_pop-up/home.css">
+        <link rel="stylesheet" href="./styles/nav_pop-up/faq.css">
+        <link rel="stylesheet" href="./styles/nav_pop-up/regard.css">
+        <link rel="stylesheet" href="./styles/Registration/btn_login.scss">
         <title>owl info</title>
     </head>
-    <body>
+    <body id="cleaner">
         <header>
             <nav class="main__site-nav">
                 <a class='nav__link' href="#">
@@ -17,25 +21,71 @@
                 <div class="menu__wrapper">
                     <ul class="main-menu__site-nav">
                         <li class="site-nav__item">
-                            <a class='nav__link' href="#">Home</a>
+                            <a class='nav__link' id="btn__home" href="#">
+                                Home
+                            </a>
                         </li>
 
                         <li class="site-nav__item">
-                            <a class='nav__link' href="#">FAQ</a>
+                            <a class='nav__link' id="btn__Regard" href="#">
+                                
+                                FAQ
+                            </a>
                         </li>
 
                         <li class="site-nav__item">
-                            <a class='nav__link' href="#">Regardless</a>
+                            <a class='nav__link' id="btn__Regard" href="#">
+                                
+                                Regardless
+                            </a>
                         </li>
 
                         <li class="site-nav__item">
-                            <a class='nav__link' href="#">LogIn</a>
+                            <div class="container__btn">
+                                <a class='nav__link btn_login' href="#">
+                                    <span class='btnInner'>LogIn</span>
+                                </a>
+                            </div>
+                            
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
+        <section class="PopUp">
+            <div id="my-modal" class="modal-home">
+                <div class="modal-box">
+                    <h2>Welcome</h2>
+                    <p>
+                        Dear USER.
+                    </p>
 
+                    <p>
+                        GoFuckYourSelfORImprove
+                    </p> 
+                    <div class="container">
+                        <a class="btn" href="#">
+                          <span class="btnInner">Button</span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+
+
+            <div id="my-modal-faq" class="modal-faq">
+                <div class="modal-box-faq"> 
+                    <h2>FAQ</h2>
+                    <p>
+                        CheckUp Important Questions
+                    </p>
+
+                    <p>
+                        ?
+                    </p> 
+                </div>
+            </div>
+
+        </section>
 
 
 
